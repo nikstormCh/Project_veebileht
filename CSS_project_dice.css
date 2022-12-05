@@ -1,0 +1,406 @@
+:root{
+    --clr-neon: hsl(0, 100%, 50%);
+    --clr-bg: hsl(0, 0%, 9%);
+    --clr-neon2: hsl(317 100% 54%);
+    --clr-neon3: hsl(268, 100%, 54%);
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: var(--clr-bg);
+    font-family: Lucida Bright;
+    display: grid;
+    place-items: center;
+}
+
+.neon_container_1{
+    color: var(--clr-neon);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon);
+    box-shadow: 0 0 1em var(--clr-neon), inset 0 0 1em var(--clr-neon);
+    text-align: center;
+    width: 6em;
+    right: 48rem;
+    top: 2rem;
+}
+
+
+.neon_container_2{
+    color: var(--clr-neon);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon);
+    box-shadow: 0 0 1em var(--clr-neon), inset 0 0 1em var(--clr-neon);
+    text-align: center;
+    width: 6em;
+    right: 29rem;
+    top: -5.4rem;
+}
+.neon_container_3{
+    color: var(--clr-neon);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon);
+    box-shadow: 0 0 1em var(--clr-neon), inset 0 0 1em var(--clr-neon);
+    text-align: center;
+    width: 6em;
+    right: 10rem;
+    top: -12.7rem;
+}
+.neon_container_4{
+    color: var(--clr-neon);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon);
+    box-shadow: 0 0 1em var(--clr-neon), inset 0 0 1em var(--clr-neon);
+    text-align: center;
+    width: 6em;
+    right: 48rem;
+    top: -10rem;
+}
+.neon_container_5{
+    color: var(--clr-neon);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon);
+    box-shadow: 0 0 1em var(--clr-neon), inset 0 0 1em var(--clr-neon);
+    text-align: center;
+    width: 6em;
+    right: 29rem;
+    top: -17.3rem;
+}
+.neon_container_6{
+    color: var(--clr-neon);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon);
+    box-shadow: 0 0 1em var(--clr-neon), inset 0 0 1em var(--clr-neon);
+    text-align: center;
+    width: 6em;
+    right: 10rem;
+    top: -24.6rem;
+}
+.neon_container_7{
+    color: var(--clr-neon2);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon2) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon2);
+    box-shadow: 0 0 1em var(--clr-neon2), inset 0 0 1em var(--clr-neon2);
+    text-align: center;
+    width: 6em;
+    right: 48rem;
+    top: -3rem;
+}
+.neon_container_8{
+    color: var(--clr-neon2);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon2) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon2);
+    box-shadow: 0 0 1em var(--clr-neon2), inset 0 0 1em var(--clr-neon2);
+    text-align: center;
+    width: 6em;
+    right: 29rem;
+    top: -10.3rem;
+}
+
+.neon_container_9{
+    color: var(--clr-neon2);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon2) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon2);
+    box-shadow: 0 0 1em var(--clr-neon2), inset 0 0 1em var(--clr-neon2);
+    text-align: center;
+    width: 6em;
+    right: 10rem;
+    top: -17.6rem;
+}
+.neon_container_10{
+    color: var(--clr-neon2);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon2) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon2);
+    box-shadow: 0 0 1em var(--clr-neon2), inset 0 0 1em var(--clr-neon2);
+    text-align: center;
+    width: 6em;
+    right: 48rem;
+    top: -15rem;
+}
+.neon_container_11{
+    color: var(--clr-neon2);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon2) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon2);
+    box-shadow: 0 0 1em var(--clr-neon2), inset 0 0 1em var(--clr-neon2);
+    text-align: center;
+    width: 6em;
+    right: 29rem;
+    top: -22.3rem;
+}
+.neon_container_12{
+    color: var(--clr-neon2);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon2) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon2);
+    box-shadow: 0 0 1em var(--clr-neon2), inset 0 0 1em var(--clr-neon2);
+    text-align: center;
+    width: 6em;
+    right: 10rem;
+    top: -29.6rem;
+}
+.neon_container_13{
+    color: var(--clr-neon3);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon3) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    text-shadow: 0 0 1em var(--clr-neon3);
+    box-shadow: 0 0 1em var(--clr-neon3), inset 0 0 1em var(--clr-neon3);
+    text-align: center;
+    width: 6em;
+    height: 6em;
+    right: -14rem;
+    top: -86rem;
+}
+.neon_container_13 img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 230px;
+    transform: translate(-50%, -50%);
+}
+.neon_container_14{
+    color: var(--clr-neon3);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon3) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon3);
+    box-shadow: 0 0 1em var(--clr-neon3), inset 0 0 1em var(--clr-neon3);
+    text-align: center;
+    width: 6em;
+    height: 6em;
+    right: -14rem;
+    top: -85rem;
+}
+.neon_container_14 img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 230px;
+    transform: translate(-50%, -50%);
+}
+.neon_container_15{
+    color: var(--clr-neon3);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon3) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon3);
+    box-shadow: 0 0 1em var(--clr-neon3), inset 0 0 1em var(--clr-neon3);
+    text-align: center;
+    width: 6em;
+    height: 6em;
+    right: -14rem;
+    top: -84rem;
+}
+.neon_container_15 img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 230px;
+    transform: translate(-50%, -50%);
+}
+.neon_container_16{
+    color: var(--clr-neon3);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon3) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon3);
+    box-shadow: 0 0 1em var(--clr-neon3), inset 0 0 1em var(--clr-neon3);
+    text-align: center;
+    width: 6em;
+    height: 6em;
+    right: -33rem;
+    top: -140rem;
+}
+
+.neon_container_17{
+    color: var(--clr-neon3);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon3) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon3);
+    box-shadow: 0 0 1em var(--clr-neon3), inset 0 0 1em var(--clr-neon3);
+    text-align: center;
+    width: 6em;
+    height: 6em;
+    right: -33rem;
+    top: -139rem;
+}
+.neon_container_18{
+    color: var(--clr-neon3);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon3) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon3);
+    box-shadow: 0 0 1em var(--clr-neon3), inset 0 0 1em var(--clr-neon3);
+    text-align: center;
+    width: 6em;
+    height: 6em;
+    right: -33rem;
+    top: -138rem;
+}
+.neon_container_19{
+    color: var(--clr-neon3);
+    font-size: 3rem;
+    display: inline-block;
+    border: var(--clr-neon3) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    top: 0.5rem;
+    text-shadow: 0 0 1em var(--clr-neon3);
+    box-shadow: 0 0 1em var(--clr-neon3), inset 0 0 1em var(--clr-neon3);
+    text-align: center;
+    width: 7em;
+    right: 7rem;
+    top: -169rem;
+}
+
+.neon_button_1{
+    font-size: 3rem;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 9%);
+    color: var(--clr-neon);
+    border: var(--clr-neon) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    text-shadow: 0 0 1em var(--clr-neon);
+    box-shadow: 0 0 1em var(--clr-neon), inset 0 0 1em var(--clr-neon);
+    bottom: 60.5em;
+    right: 48rem;
+}
+
+.neon_button_2{
+    font-size: 3rem;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 9%);
+    color: var(--clr-neon2);
+    border: var(--clr-neon2) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    text-shadow: 0 0 1em var(--clr-neon2);
+    box-shadow: 0 0 1em var(--clr-neon2), inset 0 0 1em var(--clr-neon2);
+    bottom: 59.7em;
+    right: 48rem;
+}
+
+.neon_button_3{
+    font-size: 3rem;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 9%);
+    color: var(--clr-neon3);
+    border: var(--clr-neon3) 0.125em solid;
+    position: relative;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    text-shadow: 0 0 1em var(--clr-neon3);
+    box-shadow: 0 0 1em var(--clr-neon3), inset 0 0 1em var(--clr-neon3);
+    bottom: 63.7em;
+    right: 30rem;
+}
